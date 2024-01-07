@@ -82,7 +82,12 @@ nav a {
 }
 /* header section style end  */
 
-/* banner section style start  */
+/* main section style start  */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 .about{
     padding: 130px;
@@ -91,14 +96,23 @@ nav a {
     margin: 130px 0;
 }
 
-.section-title{
+.about-title,.do-title{
     color: #181818;
     font-size: 45px;
     font-weight: 800;
     text-align:center;
 }
-.section-description{
+.about-description, .do-description{
     text-align: center;
     font-size: 15px;
+    margin-top: 20px;
 }
-/* banner section style end  */
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.about-info{
+    text-align: center;
+}
+/* main section style end  */
